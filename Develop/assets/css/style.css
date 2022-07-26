@@ -21,7 +21,8 @@ body {
 }
 
 .header h1 .seo {
-    color: #d9dcd6;
+    color: #0072bb;   /* Changed the color to make SEO stand out */
+    font-weight: bold;  /* Bolded the SEO in the name to make it stand out */
 }
 
 .header div {
