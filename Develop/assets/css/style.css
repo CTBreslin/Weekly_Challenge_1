@@ -60,15 +60,11 @@ p {
     background-position: center;
 }
 
-.float-left {
+.float-left { 
     float: left;
     margin-right: 25px;
 }
-
-.float-right {
-    float: right;
-    margin-left: 25px;
-}
+/* Got rid of float-right styling as I changed the image in HTML to not be float-right to match the overall formatting */
 
 .content {
     width: 75%;
