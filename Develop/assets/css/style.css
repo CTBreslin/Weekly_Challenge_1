@@ -81,22 +81,11 @@ p {
     height: 100%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
-}
-
-.benefit-lead {
-    margin-bottom: 32px;
+    margin-bottom: 32px;  /* Merged all of the benfit-XX styling into the overal benefit class to reduce code clutter. */
     color: #ffffff;
 }
 
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
+/* Removed specifc benefit-lead/brand/cost class styling as it was redundant */
 
 .benefit-lead h3 {
     margin-bottom: 10px;
